@@ -23,36 +23,16 @@ class Header extends Component {
                             <div className="nav-wrap">
                                 <nav id="mainnav" className="mainnav">
                                     <ul className="menu ace-responsive-menu" data-menu-style="horizontal">
-                                        <li><Link to="/" className="active">Home</Link>
-                                            <ul className="sub-menu" >
-                                                {
-                                                    links.map(data => (
-                                                        <li key={data.id}>
-                                                            <Link to={data.tolink} onClick={() => {window.location.href=data.tolink}} className={data.id === 1 ? "active" : ""}>
-                                                                {data.namelink}
-                                                            </Link>
-                                                        </li>
-                                                    ))
-                                                }
-                                            </ul>
+                                        <li>
+                                            <Link to="/#" className="active">Home</Link>
                                         </li>   
                                         {
                                             menus.map(menu => (
                                                 <li key={menu.id}><Link to={menu.tomenu} className="click-model">{menu.namemenu}</Link></li>
                                             ))
                                         }                           
-                                        <li><Link to="#">Blog</Link>
-                                            <ul className="sub-menu" >
-                                                {
-                                                    bloglinks.map(data => (
-                                                        <li key={data.id}>
-                                                            <Link to={data.toblog} onClick={() => {window.location.href=data.toblog}}>
-                                                                {data.nameblog}
-                                                            </Link>
-                                                        </li>
-                                                    ))
-                                                }
-                                            </ul>
+                                        <li>
+                                            <Link to="/">Blog</Link>
                                         </li> 
                                     </ul>
                                 </nav>
