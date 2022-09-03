@@ -10,33 +10,37 @@ class About extends Component {
                     id: 1,
                     classname: 'profile-link border-corner2 d-flex align-items-center',
                     images: './images/section/05.png',
-                    alt: 'images',
-                    name: 'Dribbble',
-                    normal: 'Follow Me'
+                    alt: 'YouTube',
+                    name: 'YouTube',
+                    normal: 'Amit Dg',
+                    link: '#'
                 },
                 {
                     id: 2,
                     classname: 'profile-link border-corner2 d-flex align-items-center',
                     images: './images/section/06.png',
-                    alt: 'images',
-                    name: 'Behance',
-                    normal: 'See My Design'
+                    alt: 'Spotify',
+                    name: 'Spotify',
+                    normal: 'Amit Dg',
+                    link: '#'
                 },
                 {
                     id: 3,
                     classname: 'profile-link border-corner2 d-flex align-items-center',
                     images: './images/section/07.png',
-                    alt: 'images',
-                    name: 'Uplabs',
-                    normal: 'Download Here'
+                    alt: 'Amazon Music',
+                    name: 'Amazon Music',
+                    normal: 'Amit Dg',
+                    link: '#'
                 },
                 {
                     id: 4,
                     classname: 'profile-link border-corner2 d-flex align-items-center',
                     images: './images/section/08.png',
-                    alt: 'images',
-                    name: 'Skype',
-                    normal: 'Connect with me'
+                    alt: 'Apple Music',
+                    name: 'Apple Music',
+                    normal:'Amit Dg',
+                    link: '#'
                 }
             ]
         }
@@ -54,7 +58,7 @@ class About extends Component {
                         <div className="flat-spacer" data-desktop="105" data-mobile="50" data-smobile="50"></div>
                         <div className="flat-title t1">
                             <div className="animate-element wow delay5 fadeInDown" data-wow-delay="0.5s">
-                                <h4 className="sub-title mg-b22">About Me</h4>
+                                <h4 className="sub-title mg-b22">Amit Dg</h4>
                                 <h2 className="title-section mg-b26 color-d12">Hi, I am here to <span className="color-d4">help you.</span></h2>
                                 <p>
                                     Hi, if you need  PSD template, landing page or Website design within a day? then you can tell me, I'm here to help you. I can design any kind of PSD template. Check my portfolio.
@@ -62,7 +66,7 @@ class About extends Component {
                             </div>
                             <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
                                 <div className="fl-btn btn-general">
-                                    <Link to="#" className="f-w500 color-1 lt-sp07">Hire Me</Link>
+                                    <Link to="#" className="f-w500 color-1 lt-sp07">Instagram</Link>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +82,7 @@ class About extends Component {
                                             <img src={data.images} alt={data.alt}/>
                                         </div>
                                         <div className="content-inside">
-                                            <h3 className="name"><Link to="#">{data.name}</Link></h3>
+                                            <h3 className="name"><Link to={data.link}>{data.name}</Link></h3>
                                             <span className="t-normal">{data.normal}</span>
                                         </div>
                                     </div>    

@@ -60,8 +60,9 @@ class Home01 extends Component {
                                         <ShapeIcon key={data.id} data={data}/>
                                     ))
                                 }
+                                
                                 <div className="animate-element wow delay5 fadeZooming" data-wow-delay="0.5s">
-                                    <h2 className="text-client-love">Clients Love</h2>
+                                    <h2 className="text-client-love">INFINITY...</h2>
                                 </div>
                                 <Testimonial />
                             </section>

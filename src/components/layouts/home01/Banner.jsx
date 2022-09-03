@@ -9,7 +9,7 @@ class Banner extends Component {
                     <div className="content-text position-relative">
                         <div className="animate-element wow delay5 fadeInDown" data-wow-delay="0.3s">
                         <h1 className="cd-headline clip is-full-width title mg-b29 text-white">
-                            <span>Create </span>
+                            <span>Create&nbsp;</span>
                             <span className="cd-words-wrapper color-d4">
                             <b className="is-visible">Design!</b>
                             <b>Template!</b>

@@ -43,7 +43,7 @@ class Specilizing extends Component {
                 <section className="specilizing-in s1" id="services">
                     <div className="container">
                         <div className="flat-title">
-                            <h2 className="title-section color-d12 animate-element wow delay5 fadeInDown" data-wow-delay="0.5s">I am Specialized in</h2>
+                            <h2 className="title-section color-d12 animate-element wow delay5 fadeInDown" data-wow-delay="0.5s">A Hip Hop Record Label</h2>
                         </div>
                         <div className="row position-relative z-index1">
                             {
@@ -52,14 +52,15 @@ class Specilizing extends Component {
                                 ))
                             }
                             <div className="flat-spacer" data-desktop="0" data-mobile="0" data-smobile="0"></div>
+                            {/*
                             <div className="fact">
                                 <NumberCount />
                                 <div className="btn-contact bg-s1 text-center">
-                                    <h4 className="title color-d12">Get a project? Let’s talk.</h4>
+                                    <h4 className="title color-d12">Get a project? Let's talk.</h4>
                                     <Link to="#" className="email color-s1 color-d14">yourmail@email.com</Link>
                                 </div>
                             </div>
-                            
+                            */}
                         </div>
                     </div>
                     <div className="featured-post animate-element wow delay5 fadeInRight" data-wow-delay="0.5s">
